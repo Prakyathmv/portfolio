@@ -368,6 +368,8 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  flex-grow: 1;
+  flex-basis: 30ch;
 }
 
 .project-title {
