@@ -430,3 +430,76 @@ footer {
 footer p {
   text-align: center;
 }
+
+.project-description {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.skills-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 1em;
+  color: #666;
+}
+
+.skills-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to new line if too many items */
+  gap: 10px; /* Adds space between items */
+  margin-bottom: 20px;
+}
+
+.skill-item {
+  background-color: #f0f0f0; /* Light background for the skill items */
+  padding: 8px 16px; /* Padding for the skill items */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1em; /* Size of the text */
+  color: #333; /* Text color */
+  font-weight: 600; /* Slightly bold for better visibility */
+}
+
+.skills-section {
+  margin-bottom: 20px; /* Adds space between skills section and other content */
+}
+
+.skills-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+  display: block; /* Makes the title appear on a new line */
+  margin-bottom: 10px; /* Space between title and skill items */
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to new line if too many items */
+  gap: 10px; /* Adds space between items */
+}
+
+.skill-item {
+  background-color: #f0f0f0; /* Light background for the skill items */
+  padding: 8px 16px; /* Padding for the skill items */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1em; /* Size of the text */
+  color: #333; /* Text color */
+  font-weight: 600; /* Slightly bold for better visibility */
+}

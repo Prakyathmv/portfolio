@@ -7,6 +7,10 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -269,14 +273,33 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
-            <div class="article-container">
+            <!-- <div class="article-container">
               <img
                 src="./assets/project-1.png"
                 alt="Project 1"
                 class="project-img"
               />
+            </div> -->
+            <h2 class="experience-sub-title project-title">
+              Loan Default Prediction
+              <i class="fas fa-university" style="color: black"></i>
+            </h2>
+            <p class="project-description">
+              A model that predicts loan defaults to help banks approve
+              profitable loans and reduce risks, achieving 71% accuracy and
+              minimizing false positives.
+            </p>
+
+            <div class="skills-section">
+              <span class="skills-title">Skills Used:</span>
+              <div class="skills-container">
+                <span class="skill-item">Logistic Regression</span>
+                <span class="skill-item">Scikit-learn</span>
+                <span class="skill-item">Feature Engineering</span>
+                <span class="skill-item">KFold</span>
+                <span class="skill-item">MinMaxScaler</span>
+              </div>
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -284,23 +307,68 @@
               >
                 Github
               </button>
-              <button
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">
+              Movie Recommender
+              <i class="fas fa-film" style="color: black;"></i>
+            </h2>
+            <p class="project-description">
+              A recommender system using collaborative filtering and matrix
+              factorization to suggest movies by user preferences, with RMSE of
+              0.99 and MAPE of 0.29.
+            </p>
+
+            <div class="skills-section">
+              <span class="skills-title">Skills Used:</span>
+              <div class="skills-container">
+                <span class="skill-item">Collaborative Filtering</span>
+                <span class="skill-item">k-NN</span>
+                <span class="skill-item">Keras</span>
+                <span class="skill-item">Matrix Factorization</span>
+
+                <span class="skill-item">Data Preprocessing</span>
+              </div>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
               </button>
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
+            <h2 class="experience-sub-title project-title">
+              Admission Chance Predictor
+              <i class="fas fa-graduation-cap"></i>
+            </h2>
+            <p class="project-description">
+              Using Linear Regression, this model predicts Ivy League admission
+              chances for Indian students based on GRE, TOEFL, GPA, and research
+              experience
+            </p>
+
+            <div class="skills-section">
+              <span class="skills-title">Skills Used:</span>
+              <div class="skills-container">
+                <span class="skill-item">Linear Regression</span>
+                <span class="skill-item">VIF score</span>
+                <span class="skill-item">R2</span>
+                <span class="skill-item">Data Visualization</span>
+                <span class="skill-item">Adjusted R2</span>
+                <span class="skill-item">EDA</span>
+              </div>
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -308,35 +376,114 @@
               >
                 Github
               </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <!-- <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div> -->
+            <h2 class="experience-sub-title project-title">
+              Treadmill Customer Profiling
+              <i class="fas fa-running" style="color: black;"></i></i>
+            </h2>
+            <p class="project-description">
+              A customer profiling analysis to identify demographics and
+              preferences of Aerofit treadmill buyers, providing insights for
+              targeted marketing strategies.
+            </p>
+
+            <div class="skills-section">
+              <span class="skills-title">Skills Used:</span>
+              <div class="skills-container">
+                <span class="skill-item">Univariate & Bivariate Analysis</span>
+
+                <span class="skill-item"> Probabilities </span>
+                <span class="skill-item"> Box Plots </span>
+                <span class="skill-item">Contingency Tables</span>
+              </div>
+            </div>
+            <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
                 Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">
+              Yulu Electric Cycle Demand Analysis
+              <i class="fas fa-bicycle" style="color: black"></i>
+            </h2>
+            <p class="project-description">
+              An analysis to identify factors influencing the demand for shared
+              electric cycles in India, using statistical tests like t-test,
+              ANOVA, and Chi-square.
+            </p>
+
+            <div class="skills-section">
+              <span class="skills-title">Skills Used:</span>
+              <div class="skills-container">
+                <span class="skill-item">Hypothesis Testing</span>
+                <span class="skill-item">t-Test</span>
+                <span class="skill-item">ANOVA</span>
+                <span class="skill-item">Chi-Square</span>
+
+                <span class="skill-item">Inferential statistics</span>
+              </div>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
               </button>
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
+            <h2 class="experience-sub-title project-title">
+              Walmart Purchase Behavior Analysis
+              <i class="fas fa-shopping-cart"></i>
+            </h2>
+            <p class="project-description">
+              An analysis to understand if factors like gender, marital status,
+              and age affect spending during Black Friday sales using Confidence
+              Intervals and CLT.
+            </p>
+
+            <div class="skills-section">
+              <span class="skills-title">Skills Used:</span>
+              <div class="skills-container">
+                <span class="skill-item">Descriptive Statistics</span>
+                <span class="skill-item">NumPy</span>
+                <span class="skill-item">Visual Analysis</span>
+                <span class="skill-item">Pandas</span>
+                <span class="skill-item">Central Limit Theorem</span>
+              </div>
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
