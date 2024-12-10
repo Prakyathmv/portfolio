@@ -313,6 +313,17 @@ section {
   width: 400px;
   margin: auto 0;
 }
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.skills-list li {
+  flex: 1 1 33%; /* Divide into three columns */
+  margin: 5px 0;
+}
 
 /* EXPERIENCE SECTION */
 
