@@ -6,9 +6,28 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --primary-color: rgb(53, 53, 53);
+  --secondary-color: rgb(163, 163, 163);
+  --link-hover: grey;
+  --button-hover-bg: rgb(0, 0, 0);
+}
+
+.dark-mode {
+  --bg-color: black;
+  --text-color: white;
+  --primary-color: rgb(200, 200, 200);
+  --secondary-color: rgb(85, 85, 85);
+  --link-hover: lightgray;
+  --button-hover-bg: rgb(50, 50, 50);
+}
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 html {
@@ -46,13 +65,13 @@ nav {
 }
 
 a {
-  color: black;
+  color: var(--text-color);
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
-  color: grey;
+  color: var(--link-hover);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -65,6 +84,7 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
+
 
 /* HAMBURGER MENU */
 
@@ -227,6 +247,14 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: var(--primary-color) 0.1rem solid;
+}
+.btn:hover {
+  background-color: var(--button-hover-bg);
+  color: var(--bg-color);
+  border: var(--secondary-color) 0.1rem solid;
 }
 
 .btn-color-1,
@@ -313,6 +341,17 @@ section {
   width: 400px;
   margin: auto 0;
 }
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.skills-list li {
+  flex: 1 1 33%; /* Divide into three columns */
+  margin: 5px 0;
+}
 
 /* EXPERIENCE SECTION */
 
@@ -368,6 +407,8 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  flex-grow: 1;
+  flex-basis: 30ch;
 }
 
 .project-title {
